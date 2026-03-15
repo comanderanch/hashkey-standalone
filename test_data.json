@@ -1,0 +1,10 @@
+{
+  "message": "Hashkey standalone test — Haskell Texas — March 15 2026",
+  "sender": "comanderanch",
+  "destination": "receiver_machine",
+  "payload": {
+    "data_type": "text",
+    "content": "This data never crossed the network. Only the hash did.",
+    "timestamp": "2026-03-15"
+  }
+}

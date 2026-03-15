@@ -1,0 +1,36 @@
+{
+  "transmission": {
+    "uid": "aia_texas_001",
+    "hash_key": "e9db9f9f9a83e9cc865ada2d7670e6b9a959bb889706dd5024986a442c0eb77a",
+    "seed": "haskell-texas-2026",
+    "timestamp": 1773600187.0655715
+  },
+  "fold": {
+    "strand": "00000011011111011010110000101110011100010000100010000001101110001100111010000001000000000",
+    "strand_length": 89,
+    "bases": {
+      "A_am_freq": "0000001101111101",
+      "T_rgb": "101011000010111001110001",
+      "C_hue": "000010001",
+      "G_fm_freq": "0000001101110001",
+      "L1_link": "100111010000",
+      "L2_link": "001000000000"
+    },
+    "values": {
+      "r": 172,
+      "g": 46,
+      "b": 113,
+      "am_freq_khz": 893,
+      "fm_freq_mhz": 88.1,
+      "hue_degrees": 17,
+      "l1_neighbor": 2512,
+      "l2_neighbor": 512
+    },
+    "payload": {
+      "action": "ping",
+      "from": "AIA \u2014 Haskell Texas",
+      "message": "Worker alive check \u2014 March 15 2026"
+    },
+    "payload_hash": "ac2e715cd348e59d0200111df97f5f39a284134ac7add7108a93bdf1617071ba"
+  }
+}
