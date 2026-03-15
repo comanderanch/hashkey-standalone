@@ -1,0 +1,8 @@
+{
+  "type": "UNAUTHORIZED_MAC",
+  "attempted_mac": "e5:f0:62:bb:1a:2a",
+  "mac_hash": "af84aac124d62a2be0397015dac62139fabb7639b856f391116950d0a6010d42",
+  "fold_hash": "abcd1234test0000",
+  "timestamp": 1773600984.351936,
+  "message": "Unauthorized compiler attempt detected"
+}

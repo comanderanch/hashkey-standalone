@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": 1773600984.350755,
+    "mac": "e5:f0:62:bb:1a:2a",
+    "mac_hash": "af84aac124d62a2be0397015dac62139fabb7639b856f391116950d0a6010d42",
+    "fold_hash": "abcd1234test0000",
+    "result": "REJECTED"
+  },
+  {
+    "timestamp": 1773600999.6239138,
+    "mac": "e5:f0:62:bb:1a:2a",
+    "mac_hash": "af84aac124d62a2be0397015dac62139fabb7639b856f391116950d0a6010d42",
+    "fold_hash": "abcd1234test0000",
+    "result": "AUTHORIZED"
+  }
+]

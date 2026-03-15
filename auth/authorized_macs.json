@@ -1,0 +1,12 @@
+{
+  "authorized": [
+    {
+      "mac_hash": "af84aac124d62a2be0397015dac62139fabb7639b856f391116950d0a6010d42",
+      "mac_hint": "e5:f0:62...",
+      "role": "primary",
+      "registered": 1773600995.5554502,
+      "label": "texas_haskell_primary"
+    }
+  ],
+  "pending": []
+}
