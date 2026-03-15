@@ -140,6 +140,13 @@ def process_transmission(path):
     print(f"[+] UID: {transmission['uid']}")
     print(f"[+] Hash: {transmission['hash_key'][:16]}...")
 
+    from machine_auth import verify_mac_for_fold
+
+    if not verify_mac_for_fold(transmission["hash_key"]):
+        print("[!] Fold self destructed — unauthorized machine")
+        path.rename(DONE_DIR / f"REJECTED_{path.name}")
+        return
+
     if not verify_transmission(transmission, folded):
         print("[!] Hash mismatch — rejected")
         return
