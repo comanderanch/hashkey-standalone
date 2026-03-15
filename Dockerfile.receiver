@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY color_fold_encoder.py .
+COPY data_to_fold.py .
+COPY receiver.py .
+CMD ["python3", "receiver.py"]

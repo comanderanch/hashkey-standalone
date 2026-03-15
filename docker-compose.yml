@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  sender:
+    build:
+      context: .
+      dockerfile: Dockerfile.sender
+    volumes:
+      - output_vol:/output
+
+  receiver:
+    build:
+      context: .
+      dockerfile: Dockerfile.receiver
+    volumes:
+      - output_vol:/output
+
+volumes:
+  output_vol:

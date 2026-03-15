@@ -18,12 +18,15 @@ Any data → 6-base pair fold encoder → JSON sealed inside fold
 ## Token Structure
 6-base pair fold (sender side):
 A  — AM frequency binary   (16 bits)
-T  — RGB color binary      (24 bits)
+T  — RGB color binary      (24 bits)  — single 8-bit per channel (R+G+B), no doubling
 C  — Hue binary            (9 bits)
 G  — FM frequency binary   (16 bits)
 L1 — Link address binary   (12 bits) — left neighbor
 L2 — Link address binary   (12 bits) — right neighbor
-TOTAL: 89 bits per token
+TOTAL: 89 bits per token  ✓ confirmed
+
+Note: rgb_folded (tri-vector expansion r*3, g*3, b*3) is for value use only.
+Binary strand T pin uses single pass — 8 bits per channel, 24 bits total.
 
 4-base pair hash (transmission):
 A T C G only — derived from 6-pin fold
