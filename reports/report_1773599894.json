@@ -1,0 +1,42 @@
+{
+  "transmission": {
+    "uid": "aia_texas_001",
+    "hash_key": "e294d1dd72d047d735da452a2a22df13d904b818f945c977b4ac257935b7fdb4",
+    "seed": "haskell-texas-2026",
+    "timestamp": 1773599894.9971857
+  },
+  "fold": {
+    "strand": "00000010010111100100100010001001111110000100001100000010000001101110011011110010010010111",
+    "strand_length": 89,
+    "bases": {
+      "A_am_freq": "0000001001011110",
+      "T_rgb": "010010001000100111111000",
+      "C_hue": "010000110",
+      "G_fm_freq": "0000010000001101",
+      "L1_link": "110011011110",
+      "L2_link": "010010010111"
+    },
+    "values": {
+      "r": 72,
+      "g": 137,
+      "b": 248,
+      "am_freq_khz": 606,
+      "fm_freq_mhz": 103.7,
+      "hue_degrees": 134,
+      "l1_neighbor": 3294,
+      "l2_neighbor": 1175
+    },
+    "payload": {
+      "worker": "california_vps",
+      "responding_to": "65dc348ce4890a82",
+      "uid": "aia_texas_001",
+      "result": {
+        "status": "alive",
+        "output": "worker online \u2014 California VPS",
+        "timestamp": 1773599894.9971738
+      },
+      "timestamp": 1773599894.9971857
+    },
+    "payload_hash": "4889f8cdf6ab33cde4978634ff1958bb463e80e572b915d3f4a1a2839f17597a"
+  }
+}
