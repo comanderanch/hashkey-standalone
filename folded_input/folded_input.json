@@ -1,0 +1,33 @@
+{
+  "strand": "00000011101111101111001000110101111011010101110000000001110111100100001010111000110000000",
+  "strand_length": 89,
+  "bases": {
+    "A_am_freq": "0000001110111110",
+    "T_rgb": "111100100011010111101101",
+    "C_hue": "010111000",
+    "G_fm_freq": "0000001110111100",
+    "L1_link": "100001010111",
+    "L2_link": "000110000000"
+  },
+  "values": {
+    "r": 242,
+    "g": 53,
+    "b": 237,
+    "am_freq_khz": 958,
+    "fm_freq_mhz": 95.6,
+    "hue_degrees": 184,
+    "l1_neighbor": 2135,
+    "l2_neighbor": 384
+  },
+  "payload": {
+    "message": "Hashkey standalone test \u2014 Haskell Texas \u2014 March 15 2026",
+    "sender": "comanderanch",
+    "destination": "receiver_machine",
+    "payload": {
+      "data_type": "text",
+      "content": "This data never crossed the network. Only the hash did.",
+      "timestamp": "2026-03-15"
+    }
+  },
+  "payload_hash": "f235ed2f601122857180b8b450da61395920ab75a0d8d53f645f08ae353e1de2"
+}
