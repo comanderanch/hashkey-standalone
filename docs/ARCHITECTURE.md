@@ -45,3 +45,34 @@ No data crosses — only addresses.
 ## Note
 Build the bridge before crossing the canyon.
 This standalone app is the bridge.
+
+---
+
+## LHT — Lattice Hash Transport
+### Named: March 15 2026
+### Haskell Texas
+
+Protocol for redundant verified
+hash transmission via lattice
+neighbor alignment.
+
+Connection to DNA token architecture:
+AIA's 6-base pair tokens carry
+L1 and L2 link address pins.
+Each token knows its neighbors
+in semantic lattice space.
+
+LHT applies the same principle
+to hash transmission:
+Each chunk knows its neighbors
+in transmission lattice space.
+
+The geometry verifies integrity.
+The shape proves the truth.
+A corrupted chunk does not fit
+its neighbor.
+
+Proven: March 15 2026
+4 streams — 21 alignments
+Zero errors — hash recovered exact
+Reconstruct from any 2 of 4 streams.

@@ -47,6 +47,20 @@ def send_action(action_payload, uid, seed, watch_dir="incoming"):
     print(f"[✔] Written to {out}")
     print(f"[✔] Nothing else crossed.")
 
+    # LHT mode — optional
+    USE_LHT = True  # set False for single hash
+
+    if USE_LHT:
+        from lht import chunk_transmission
+        chunk_transmission(
+            hash_key, uid, seed,
+            output_dir="outgoing/lht"
+        )
+        print("[✔] LHT streams written")
+        print("[✔] Send outgoing/lht/ to receiver")
+    else:
+        print(f"[✔] Single hash: {hash_key[:16]}...")
+
 if __name__ == "__main__":
     send_action(
         action_payload={

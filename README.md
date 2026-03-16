@@ -299,11 +299,18 @@ Message visible — nothing raw crossed
 
 ---
 
-## Chunk-Pair Transmission Protocol
+## LHT — Lattice Hash Transport
 
 Contributed by: Anthony Hagerty
 and colleague — Haskell Texas
 March 15 2026
+
+Named for the lattice neighbor
+alignment principle shared with
+AIA's DNA token L1/L2 position pins.
+Same architecture — different scale.
+Token lattice = semantic space.
+Hash lattice = transmission space.
 
 ### The Problem
 A hash sent as a single unit
